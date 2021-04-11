@@ -1,4 +1,7 @@
 // import './task-1.js';
+import './task-2.js';
+
+import './task-3.js';
 
 import './styles.css';
 
@@ -90,17 +93,17 @@ import './styles.css';
 //       onError(error);
 //     });
 
-const fetchPokemonByID = id => {
-  return fetch(`https://pokeapi.co/api/v2/pokemon/${id}`).then(r => r.json());
-};
+// const fetchPokemonByID = id => {
+//   return fetch(`https://pokeapi.co/api/v2/pokemon/${id}`).then(r => r.json());
+// };
 
-fetchPokemonByID(3).then(onFetchSuccess).catch(onFetchError);
+// fetchPokemonByID(3).then(onFetchSuccess).catch(onFetchError);
 
-function onFetchSuccess(pokemon) {
-  console.log(pokemon);
-}
+// function onFetchSuccess(pokemon) {
+//   console.log(pokemon);
+// }
 
-function onFetchError(error) {
-  console.log('Это в блоке catch');
-  console.log(error);
-}
+// function onFetchError(error) {
+//   console.log('Это в блоке catch');
+//   console.log(error);
+// }
